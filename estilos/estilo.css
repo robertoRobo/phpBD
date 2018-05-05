@@ -1,0 +1,329 @@
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); 
+    border-radius: 1px;
+    background-color: transparent;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5); 
+    background-color: transparent;
+}
+
+/*Barra de  Navegacion*/
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    background-color: -webkit-linear-gradient(top, #14276b   , #F5F525); /* For Safari 5.1 to 6.0 */
+    background-color: -o-linear-gradient(bottom, #14276b  , #F5F525); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(bottom, #14276b  , #F5F525); /* For Firefox 3.6 to 15 */
+    background-color: linear-gradient(to bottom, #14276b  90% , #F5F525); /* Standard syntax */
+    background-color: #14276b;
+    /*opacity: .5;*/
+    border-radius: 0px;
+    height: 67px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+.navbar-brand{
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    padding-left: 10px; 
+    background-color: white;
+    border-radius: 10px;
+    height: 64px;
+}
+.navbar.navbar-default.navbar-static-top
+.nav-brand img{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.navbar-right{
+    margin-right: 20px;
+    padding-top: 14px;
+}
+.navbar-right div button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.informacion{
+    width: 56.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.file1{
+    width: 56.5%;
+    border: 1px solid #ccc;
+    margin-top: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: left;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4);/* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-titulo{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    height: 45%;
+}
+.modal-content {
+    background-color: #FF8000;
+    margin: 5% auto 15% auto; 
+    border: 3px solid #888;
+    border-color: orangered;
+    width: 50%; 
+    color:#DF0174;
+}
+.modal-content3 {
+    background-color: #FF8000;
+    margin: 5% auto 15% auto; 
+    border: 3px solid #888;
+    border-color: orangered;
+    width: 80%; 
+    color:#DF0174;
+}
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: blue;
+    cursor: pointer;
+}
+.close1 {
+    float:right;
+    margin-right: 20px;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: blue;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+#carousel2{
+    margin-top: 3cm;
+    width:100%;
+}
+#filtros{
+    margin-top: 1cm;
+    background-color: yellow;
+}
+#mitad{
+    margin-top:1cm;
+}
+
+#mitad2{
+    margin-top:1cm;
+    margin-left: 2cm;
+}
+#mitad3{
+    margin-top:1cm;
+    margin-left: 1cm;
+}
+
+#mitad5{
+    margin-left: 2cm;
+}
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;
+}
+#slidecontainer {
+    width: 90%;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: gray;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+.btn2 {
+  height: 30px;
+  width: 80px;
+  border-radius: 20%;
+  border: 1px solid red;
+  background-color: #FA58F4;
+}
+
+#close-image img{
+    display: block;
+    height:130px;
+    width:196px;
+}
+#myCarousel2{
+    width:90%;
+}
+.modal-content2 {
+    background-color: #FF8000;
+    margin: 5% auto 15% auto; 
+    border: 3px solid #888;
+    border-color: orangered;
+    width: 80%; 
+    border-radius: 10px;
+}
+.hide-bullets {
+list-style:none;
+margin-left: -30px;
+margin-top:-100px;
+}
+.check
+{
+    opacity:0.5;
+    color:#996;
+    width:48px;
+    height:48px;	
+}
+#titulo{
+    margin-top:1cm;
+}
+.footer-bottom {
+    background-color: #15224f;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.simultaneo{
+    min-height: 200px;
+}
+#inmueble{
+    border-radius: 10px;
+}
+#descripcion{
+   width:100%;
+   height:100px;
+   border-radius:10px;
+}
